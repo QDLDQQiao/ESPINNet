@@ -13,6 +13,10 @@ Use the environment.yml file to create the conda environment to run this code.
 conda env create -f environment.yml
 ```
 
+## Test data
+
+The test data can be obtained here: https://1drv.ms/f/c/0bc6da5ca449d517/EqWzejqVtc1EjGEuOXu_ukEB_8Qy_7QPQGKOfjgH6aHVvw?e=3JKX7G
+
 ## Instructions
 
 - 'estimate_single.py': inference example script.
