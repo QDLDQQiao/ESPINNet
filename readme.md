@@ -12,8 +12,15 @@ Use the environment.yml file to create the conda environment to run this code.
 ```
 conda env create -f environment.yml
 ```
-## Examples
+
+## Instructions
 
 - 'estimate_single.py': inference example script.
-- 'T 
+- 'TensorRT_estimate_batch.py': script optimized using TensorRT to accelerate the inference speed.
+- 'UMPA_script.py': script for comparison results using UMPA method from this repo:https://github.com/optimato/UMPA/tree/main 
+
+## Acknowledgement
+We thank the open-sourced UMPA package (https://github.com/optimato/UMPA/tree/main), which is well-written and optimized for parallel computing using C language.
+
+
 Please cite this work when using this network!
